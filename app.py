@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-df=pd.read_csv('/content/pizza_sales.csv')
+df=pd.read_csv('pizza_sales.csv')
 
 # 2. Set up the Streamlit page configuration
 st.set_page_config(page_title="Pizza Sales Dashboard", layout="wide")
